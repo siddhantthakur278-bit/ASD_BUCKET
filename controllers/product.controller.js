@@ -1,6 +1,4 @@
-// controllers/product.controller.js
 
-// FIX: Use '../services/product.service' instead of '../ASD_BUCKET/services/product.service'
 const productService = require('../services/product.service');
 const { clearCache } = require('../middleware/cache.middleware');
 

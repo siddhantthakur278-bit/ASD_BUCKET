@@ -1,7 +1,6 @@
 const express = require("express");
 const router = express.Router();
 
-// Fixed import paths: move up one level from 'routes' to reach 'controllers' and 'middleware'
 const productController = require("../controllers/product.controller");
 const { cacheMiddleware } = require("../middleware/cache.middleware");
 

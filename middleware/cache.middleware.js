@@ -1,5 +1,5 @@
 const cache = {};
-const TTL_MS = 60 * 1000; // 1 Minute TTL
+const TTL_MS = 60 * 1000; 
 
 const cacheMiddleware = (req, res, next) => {
   const key = req.originalUrl || req.url;
